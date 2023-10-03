@@ -1,0 +1,46 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Roboto';
+  width: 400px;
+  height: 350px;
+  border-radius: 8px;
+}
+.count {
+  color: #0f172a;
+  font-size: 32px;
+}
+
+.number-category {
+  color: #334155;
+  font-size: 22px;
+}
+
+.increment-button {
+  color: #1e293b;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  border-color: #0f172a;
+  border-style: solid;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 12px;
+}
+
+.description {
+  color: #334155;
+  font-size: 10px;
+}
